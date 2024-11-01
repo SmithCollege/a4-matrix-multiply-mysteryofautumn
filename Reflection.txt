@@ -1,0 +1,19 @@
+0. Analyze your results, when does it make sense to use the various approaches?
+It makes sense that when the size is large enough cuBlas < Tiled< GPU< CPU, but I didn't expect that when the size is small, CPU is actually the fastest.
+
+1. How did your speed compare with cuBLAS?
+cuBlas is 5x faster compared to the tiled version. This is probably because I set my tile size to the same, and is too small compared to the size.
+
+2. What went well with this assignment?
+The trend shown in retrieved data is as expected. 
+
+3. What was difficult?
+Going through the cuBlas library, understand which function to use.
+
+4. How would you approach differently?
+There isn't a different approach to me, so my approaches will remain the same. 
+
+5. Anything else you want me to know?
+Nope
+
+
